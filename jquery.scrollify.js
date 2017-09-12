@@ -821,7 +821,7 @@ if touchScroll is false - update index
 	};
     scrollify.pause = scrollify.disable;
     scrollify.unpause = function() {
-        disable = false;
+        disabled = false;
     };
 	scrollify.setOptions = function(updatedOptions) {
 		if(!initialised) {
